@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+div {
+  color: black;
+  background: green;
+  line-height: 200px;
+  text-align: center;
+  width:200px;
+  height:200px;
+  border-radius: 12px;
+  transition-property: color, width, background, border-radius;
+  transition-duration: .25s;
+  transition-timing-function: linear;
+  
+}
+div:hover {
+  color: white;
+  width:250px;
+  background: blue;
+  border-radius:24%;
+}
+div:active {
+  transition-delay: .25s;
+  color: black;
+  width:300px;
+  background: yellow;
+  border-radius: 12%;
+}
